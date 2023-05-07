@@ -1,0 +1,214 @@
+﻿namespace AppQuanLyKho
+{
+	partial class PhieuNhapKho
+	{
+		/// <summary>
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+
+		/// <summary>
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
+		#region Windows Form Designer generated code
+
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.lbNCC = new System.Windows.Forms.Label();
+			this.lbDV = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.lbCT = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.lbSL = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.lbTT = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
+			this.gridPhieu = new System.Windows.Forms.DataGridView();
+			((System.ComponentModel.ISupportInitialize)(this.gridPhieu)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(232, 51);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(344, 42);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "PHIẾU NHẬP KHO";
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(73, 120);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(97, 17);
+			this.label2.TabIndex = 1;
+			this.label2.Text = "Nhà cung cấp: ";
+			// 
+			// lbNCC
+			// 
+			this.lbNCC.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbNCC.Location = new System.Drawing.Point(176, 117);
+			this.lbNCC.Name = "lbNCC";
+			this.lbNCC.Size = new System.Drawing.Size(261, 25);
+			this.lbNCC.TabIndex = 47;
+			// 
+			// lbDV
+			// 
+			this.lbDV.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbDV.Location = new System.Drawing.Point(176, 155);
+			this.lbDV.Name = "lbDV";
+			this.lbDV.Size = new System.Drawing.Size(261, 25);
+			this.lbDV.TabIndex = 49;
+			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(73, 155);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(55, 17);
+			this.label4.TabIndex = 48;
+			this.label4.Text = "Đơn vị: ";
+			// 
+			// lbCT
+			// 
+			this.lbCT.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbCT.Location = new System.Drawing.Point(176, 192);
+			this.lbCT.Name = "lbCT";
+			this.lbCT.Size = new System.Drawing.Size(261, 25);
+			this.lbCT.TabIndex = 51;
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(73, 192);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(61, 17);
+			this.label6.TabIndex = 50;
+			this.label6.Text = "Công ty: ";
+			// 
+			// lbSL
+			// 
+			this.lbSL.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbSL.Location = new System.Drawing.Point(176, 231);
+			this.lbSL.Name = "lbSL";
+			this.lbSL.Size = new System.Drawing.Size(261, 25);
+			this.lbSL.TabIndex = 54;
+			// 
+			// label8
+			// 
+			this.label8.AutoSize = true;
+			this.label8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label8.Location = new System.Drawing.Point(73, 231);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(67, 17);
+			this.label8.TabIndex = 53;
+			this.label8.Text = "Số lượng: ";
+			// 
+			// lbTT
+			// 
+			this.lbTT.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbTT.Location = new System.Drawing.Point(176, 279);
+			this.lbTT.Name = "lbTT";
+			this.lbTT.Size = new System.Drawing.Size(261, 25);
+			this.lbTT.TabIndex = 56;
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label10.Location = new System.Drawing.Point(73, 279);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(70, 17);
+			this.label10.TabIndex = 55;
+			this.label10.Text = "Tổng tiền: ";
+			// 
+			// gridPhieu
+			// 
+			this.gridPhieu.AllowUserToAddRows = false;
+			this.gridPhieu.AllowUserToDeleteRows = false;
+			this.gridPhieu.AllowUserToResizeColumns = false;
+			this.gridPhieu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+			this.gridPhieu.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+			this.gridPhieu.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.InfoText;
+			dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.gridPhieu.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+			this.gridPhieu.Location = new System.Drawing.Point(76, 317);
+			this.gridPhieu.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.gridPhieu.Name = "gridPhieu";
+			this.gridPhieu.ReadOnly = true;
+			this.gridPhieu.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+			this.gridPhieu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+			this.gridPhieu.Size = new System.Drawing.Size(670, 262);
+			this.gridPhieu.TabIndex = 57;
+			// 
+			// PhieuNhapKho
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.ClientSize = new System.Drawing.Size(801, 658);
+			this.Controls.Add(this.gridPhieu);
+			this.Controls.Add(this.lbTT);
+			this.Controls.Add(this.label10);
+			this.Controls.Add(this.lbSL);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.lbCT);
+			this.Controls.Add(this.label6);
+			this.Controls.Add(this.lbDV);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.lbNCC);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label1);
+			this.Name = "PhieuNhapKho";
+			this.Text = "PhieuNhapKho";
+			this.Load += new System.EventHandler(this.PhieuNhapKho_Load);
+			((System.ComponentModel.ISupportInitialize)(this.gridPhieu)).EndInit();
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
+		}
+
+		#endregion
+
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label lbNCC;
+		private System.Windows.Forms.Label lbDV;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label lbCT;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label lbSL;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label lbTT;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.DataGridView gridPhieu;
+	}
+}
