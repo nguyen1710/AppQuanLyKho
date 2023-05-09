@@ -95,5 +95,10 @@ namespace AppQuanLyKho
 			PhieuXuatKho f = new PhieuXuatKho();
 			f.Show();
 		}
+
+		private void cbbCongty_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

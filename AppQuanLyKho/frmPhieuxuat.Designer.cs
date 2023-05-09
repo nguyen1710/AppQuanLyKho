@@ -38,12 +38,12 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.gridXuat = new System.Windows.Forms.DataGridView();
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.ID = new System.Windows.Forms.Label();
+			this.IDChungtu = new System.Windows.Forms.Label();
 			this.btnAdd = new System.Windows.Forms.ToolStripButton();
 			this.btnEdit = new System.Windows.Forms.ToolStripButton();
 			this.btnDelete = new System.Windows.Forms.ToolStripButton();
 			this.btnExit = new System.Windows.Forms.ToolStripButton();
-			this.ID = new System.Windows.Forms.Label();
-			this.IDChungtu = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.gridXuat)).BeginInit();
 			this.toolStrip1.SuspendLayout();
 			this.SuspendLayout();
@@ -152,6 +152,23 @@
 			this.toolStrip1.TabIndex = 15;
 			this.toolStrip1.Text = "toolStrip1";
 			// 
+			// ID
+			// 
+			this.ID.AutoSize = true;
+			this.ID.Location = new System.Drawing.Point(1029, 9);
+			this.ID.Name = "ID";
+			this.ID.Size = new System.Drawing.Size(0, 13);
+			this.ID.TabIndex = 27;
+			// 
+			// IDChungtu
+			// 
+			this.IDChungtu.AutoSize = true;
+			this.IDChungtu.Location = new System.Drawing.Point(1020, 234);
+			this.IDChungtu.Name = "IDChungtu";
+			this.IDChungtu.Size = new System.Drawing.Size(0, 13);
+			this.IDChungtu.TabIndex = 28;
+			this.IDChungtu.Visible = false;
+			// 
 			// btnAdd
 			// 
 			this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
@@ -187,23 +204,7 @@
 			this.btnExit.Size = new System.Drawing.Size(39, 54);
 			this.btnExit.Text = "Exit";
 			this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			// 
-			// ID
-			// 
-			this.ID.AutoSize = true;
-			this.ID.Location = new System.Drawing.Point(1029, 9);
-			this.ID.Name = "ID";
-			this.ID.Size = new System.Drawing.Size(0, 13);
-			this.ID.TabIndex = 27;
-			// 
-			// IDChungtu
-			// 
-			this.IDChungtu.AutoSize = true;
-			this.IDChungtu.Location = new System.Drawing.Point(1020, 234);
-			this.IDChungtu.Name = "IDChungtu";
-			this.IDChungtu.Size = new System.Drawing.Size(0, 13);
-			this.IDChungtu.TabIndex = 28;
-			this.IDChungtu.Visible = false;
+			this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
 			// 
 			// frmPhieuxuat
 			// 
@@ -221,7 +222,7 @@
 			this.Controls.Add(this.gridXuat);
 			this.Controls.Add(this.toolStrip1);
 			this.Name = "frmPhieuxuat";
-			this.Text = "frmPhieuxuat";
+			this.Text = "QUẢN LÝ XUẤT HÀNG";
 			this.Load += new System.EventHandler(this.frmPhieuxuat_Load);
 			((System.ComponentModel.ISupportInitialize)(this.gridXuat)).EndInit();
 			this.toolStrip1.ResumeLayout(false);

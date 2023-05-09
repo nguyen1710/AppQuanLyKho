@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.gridNhapchitiet = new System.Windows.Forms.DataGridView();
 			this.label2 = new System.Windows.Forms.Label();
 			this.cbbTrangthai = new System.Windows.Forms.ComboBox();
@@ -45,14 +45,14 @@
 			this.gridNhapchitiet.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			this.gridNhapchitiet.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
 			this.gridNhapchitiet.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.InfoText;
-			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.gridNhapchitiet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.InfoText;
+			dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.gridNhapchitiet.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
 			this.gridNhapchitiet.Location = new System.Drawing.Point(0, 54);
 			this.gridNhapchitiet.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.gridNhapchitiet.Name = "gridNhapchitiet";
@@ -117,7 +117,7 @@
 			this.Controls.Add(this.cbbTrangthai);
 			this.Controls.Add(this.gridNhapchitiet);
 			this.Name = "frmNhapChiTiet";
-			this.Text = "frmNhapChiTiet";
+			this.Text = "CHI TIẾT SẢN PHẨM NHẬP VÀO";
 			this.Load += new System.EventHandler(this.frmNhapChiTiet_Load);
 			((System.ComponentModel.ISupportInitialize)(this.gridNhapchitiet)).EndInit();
 			this.ResumeLayout(false);

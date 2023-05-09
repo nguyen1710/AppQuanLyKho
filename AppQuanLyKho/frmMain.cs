@@ -55,5 +55,11 @@ namespace AppQuanLyKho
 		{
 
 		}
+
+		private void frmMain_Load(object sender, EventArgs e)
+		{
+			Login f = new Login();
+			f.ShowDialog();
+		}
 	}
 }

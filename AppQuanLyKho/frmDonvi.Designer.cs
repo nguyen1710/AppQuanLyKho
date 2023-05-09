@@ -28,13 +28,9 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDonvi));
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDonvi));
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-			this.btnAdd = new System.Windows.Forms.ToolStripButton();
-			this.btnEdit = new System.Windows.Forms.ToolStripButton();
-			this.btnDelete = new System.Windows.Forms.ToolStripButton();
-			this.btnExit = new System.Windows.Forms.ToolStripButton();
 			this.gridProducts = new System.Windows.Forms.DataGridView();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
@@ -52,6 +48,10 @@
 			this.txtDiachi = new System.Windows.Forms.TextBox();
 			this.label8 = new System.Windows.Forms.Label();
 			this.ckbKho = new System.Windows.Forms.CheckBox();
+			this.btnAdd = new System.Windows.Forms.ToolStripButton();
+			this.btnEdit = new System.Windows.Forms.ToolStripButton();
+			this.btnDelete = new System.Windows.Forms.ToolStripButton();
+			this.btnExit = new System.Windows.Forms.ToolStripButton();
 			this.toolStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.gridProducts)).BeginInit();
 			this.SuspendLayout();
@@ -70,45 +70,6 @@
 			this.toolStrip1.Size = new System.Drawing.Size(791, 57);
 			this.toolStrip1.TabIndex = 1;
 			this.toolStrip1.Text = "toolStrip1";
-			// 
-			// btnAdd
-			// 
-			this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-			this.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.btnAdd.Name = "btnAdd";
-			this.btnAdd.Size = new System.Drawing.Size(39, 54);
-			this.btnAdd.Text = "Add";
-			this.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-			// 
-			// btnEdit
-			// 
-			this.btnEdit.Image = ((System.Drawing.Image)(resources.GetObject("btnEdit.Image")));
-			this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.btnEdit.Name = "btnEdit";
-			this.btnEdit.Size = new System.Drawing.Size(39, 54);
-			this.btnEdit.Text = "Edit";
-			this.btnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-			// 
-			// btnDelete
-			// 
-			this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-			this.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.btnDelete.Name = "btnDelete";
-			this.btnDelete.Size = new System.Drawing.Size(42, 54);
-			this.btnDelete.Text = "Delete";
-			this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-			// 
-			// btnExit
-			// 
-			this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-			this.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.btnExit.Name = "btnExit";
-			this.btnExit.Size = new System.Drawing.Size(39, 54);
-			this.btnExit.Text = "Exit";
-			this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			// 
 			// gridProducts
 			// 
@@ -287,6 +248,45 @@
 			this.ckbKho.Text = "Kho";
 			this.ckbKho.UseVisualStyleBackColor = true;
 			// 
+			// btnAdd
+			// 
+			this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
+			this.btnAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.btnAdd.Name = "btnAdd";
+			this.btnAdd.Size = new System.Drawing.Size(39, 54);
+			this.btnAdd.Text = "Add";
+			this.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+			// 
+			// btnEdit
+			// 
+			this.btnEdit.Image = ((System.Drawing.Image)(resources.GetObject("btnEdit.Image")));
+			this.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.btnEdit.Name = "btnEdit";
+			this.btnEdit.Size = new System.Drawing.Size(39, 54);
+			this.btnEdit.Text = "Edit";
+			this.btnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+			// 
+			// btnDelete
+			// 
+			this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+			this.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.btnDelete.Name = "btnDelete";
+			this.btnDelete.Size = new System.Drawing.Size(42, 54);
+			this.btnDelete.Text = "Delete";
+			this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+			// 
+			// btnExit
+			// 
+			this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+			this.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.btnExit.Name = "btnExit";
+			this.btnExit.Size = new System.Drawing.Size(39, 54);
+			this.btnExit.Text = "Exit";
+			this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// 
 			// frmDonvi
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -311,7 +311,7 @@
 			this.Controls.Add(this.gridProducts);
 			this.Controls.Add(this.toolStrip1);
 			this.Name = "frmDonvi";
-			this.Text = "frmDonvi";
+			this.Text = "QUẢN LÝ ĐƠN VỊ";
 			this.Load += new System.EventHandler(this.frmDonvi_Load);
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();

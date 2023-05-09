@@ -32,26 +32,26 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-			this.tsbMain = new System.Windows.Forms.ToolStripButton();
-			this.tsbReport = new System.Windows.Forms.ToolStripButton();
-			this.tsbExit = new System.Windows.Forms.ToolStripButton();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.label4 = new System.Windows.Forms.Label();
-			this.pictureBox6 = new System.Windows.Forms.PictureBox();
 			this.lbNhapMua = new System.Windows.Forms.Label();
-			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.label5 = new System.Windows.Forms.Label();
-			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.lbDonvi = new System.Windows.Forms.Label();
-			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.lbSanpham = new System.Windows.Forms.Label();
-			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.imageList2 = new System.Windows.Forms.ImageList(this.components);
 			this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+			this.tsbMain = new System.Windows.Forms.ToolStripButton();
+			this.tsbReport = new System.Windows.Forms.ToolStripButton();
+			this.tsbExit = new System.Windows.Forms.ToolStripButton();
+			this.pictureBox6 = new System.Windows.Forms.PictureBox();
+			this.pictureBox4 = new System.Windows.Forms.PictureBox();
+			this.pictureBox5 = new System.Windows.Forms.PictureBox();
+			this.pictureBox3 = new System.Windows.Forms.PictureBox();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.toolStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
@@ -82,37 +82,6 @@
 			this.toolStrip1.Size = new System.Drawing.Size(1023, 57);
 			this.toolStrip1.TabIndex = 2;
 			this.toolStrip1.Text = "toolStrip1";
-			// 
-			// tsbMain
-			// 
-			this.tsbMain.Image = ((System.Drawing.Image)(resources.GetObject("tsbMain.Image")));
-			this.tsbMain.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tsbMain.Name = "tsbMain";
-			this.tsbMain.Size = new System.Drawing.Size(79, 54);
-			this.tsbMain.Text = "Main System";
-			this.tsbMain.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			// 
-			// tsbReport
-			// 
-			this.tsbReport.Image = ((System.Drawing.Image)(resources.GetObject("tsbReport.Image")));
-			this.tsbReport.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tsbReport.Margin = new System.Windows.Forms.Padding(4, 1, 0, 2);
-			this.tsbReport.Name = "tsbReport";
-			this.tsbReport.Size = new System.Drawing.Size(46, 54);
-			this.tsbReport.Text = "Report";
-			this.tsbReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			this.tsbReport.Click += new System.EventHandler(this.tsbReport_Click);
-			// 
-			// tsbExit
-			// 
-			this.tsbExit.Image = ((System.Drawing.Image)(resources.GetObject("tsbExit.Image")));
-			this.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.tsbExit.Margin = new System.Windows.Forms.Padding(10, 1, 0, 2);
-			this.tsbExit.Name = "tsbExit";
-			this.tsbExit.Size = new System.Drawing.Size(39, 54);
-			this.tsbExit.Text = "Exit";
-			this.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-			this.tsbExit.Click += new System.EventHandler(this.tsbExit_Click);
 			// 
 			// splitContainer1
 			// 
@@ -156,16 +125,6 @@
 			this.label4.Text = "Phiếu xuất hàng";
 			this.label4.Click += new System.EventHandler(this.label4_Click);
 			// 
-			// pictureBox6
-			// 
-			this.pictureBox6.Image = global::AppQuanLyKho.Properties.Resources.minus;
-			this.pictureBox6.Location = new System.Drawing.Point(36, 234);
-			this.pictureBox6.Name = "pictureBox6";
-			this.pictureBox6.Size = new System.Drawing.Size(33, 22);
-			this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox6.TabIndex = 14;
-			this.pictureBox6.TabStop = false;
-			// 
 			// lbNhapMua
 			// 
 			this.lbNhapMua.AutoSize = true;
@@ -177,16 +136,6 @@
 			this.lbNhapMua.Text = "Phiếu nhập mua";
 			this.lbNhapMua.Click += new System.EventHandler(this.lbNhapMua_Click);
 			// 
-			// pictureBox4
-			// 
-			this.pictureBox4.Image = global::AppQuanLyKho.Properties.Resources.minus;
-			this.pictureBox4.Location = new System.Drawing.Point(36, 193);
-			this.pictureBox4.Name = "pictureBox4";
-			this.pictureBox4.Size = new System.Drawing.Size(33, 22);
-			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox4.TabIndex = 12;
-			this.pictureBox4.TabStop = false;
-			// 
 			// label5
 			// 
 			this.label5.AutoSize = true;
@@ -196,16 +145,6 @@
 			this.label5.Size = new System.Drawing.Size(82, 20);
 			this.label5.TabIndex = 11;
 			this.label5.Text = "Chứng từ";
-			// 
-			// pictureBox5
-			// 
-			this.pictureBox5.Image = global::AppQuanLyKho.Properties.Resources.plus;
-			this.pictureBox5.Location = new System.Drawing.Point(3, 165);
-			this.pictureBox5.Name = "pictureBox5";
-			this.pictureBox5.Size = new System.Drawing.Size(33, 22);
-			this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox5.TabIndex = 10;
-			this.pictureBox5.TabStop = false;
 			// 
 			// lbDonvi
 			// 
@@ -218,16 +157,6 @@
 			this.lbDonvi.Text = "Danh mục đơn vị";
 			this.lbDonvi.Click += new System.EventHandler(this.lbDonvi_Click);
 			// 
-			// pictureBox3
-			// 
-			this.pictureBox3.Image = global::AppQuanLyKho.Properties.Resources.minus;
-			this.pictureBox3.Location = new System.Drawing.Point(36, 125);
-			this.pictureBox3.Name = "pictureBox3";
-			this.pictureBox3.Size = new System.Drawing.Size(33, 22);
-			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox3.TabIndex = 8;
-			this.pictureBox3.TabStop = false;
-			// 
 			// lbSanpham
 			// 
 			this.lbSanpham.AutoSize = true;
@@ -239,16 +168,6 @@
 			this.lbSanpham.Text = "Danh mục sản phẩm";
 			this.lbSanpham.Click += new System.EventHandler(this.lbSanpham_Click);
 			// 
-			// pictureBox2
-			// 
-			this.pictureBox2.Image = global::AppQuanLyKho.Properties.Resources.minus;
-			this.pictureBox2.Location = new System.Drawing.Point(36, 99);
-			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(33, 22);
-			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox2.TabIndex = 6;
-			this.pictureBox2.TabStop = false;
-			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
@@ -258,16 +177,6 @@
 			this.label1.Size = new System.Drawing.Size(90, 20);
 			this.label1.TabIndex = 5;
 			this.label1.Text = "Danh mục";
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Image = global::AppQuanLyKho.Properties.Resources.plus;
-			this.pictureBox1.Location = new System.Drawing.Point(3, 71);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(33, 22);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox1.TabIndex = 4;
-			this.pictureBox1.TabStop = false;
 			// 
 			// label3
 			// 
@@ -304,6 +213,97 @@
 			this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
 			this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
 			// 
+			// tsbMain
+			// 
+			this.tsbMain.Image = ((System.Drawing.Image)(resources.GetObject("tsbMain.Image")));
+			this.tsbMain.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tsbMain.Name = "tsbMain";
+			this.tsbMain.Size = new System.Drawing.Size(79, 54);
+			this.tsbMain.Text = "Main System";
+			this.tsbMain.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			// 
+			// tsbReport
+			// 
+			this.tsbReport.Image = ((System.Drawing.Image)(resources.GetObject("tsbReport.Image")));
+			this.tsbReport.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tsbReport.Margin = new System.Windows.Forms.Padding(4, 1, 0, 2);
+			this.tsbReport.Name = "tsbReport";
+			this.tsbReport.Size = new System.Drawing.Size(46, 54);
+			this.tsbReport.Text = "Report";
+			this.tsbReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.tsbReport.Click += new System.EventHandler(this.tsbReport_Click);
+			// 
+			// tsbExit
+			// 
+			this.tsbExit.Image = ((System.Drawing.Image)(resources.GetObject("tsbExit.Image")));
+			this.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tsbExit.Margin = new System.Windows.Forms.Padding(10, 1, 0, 2);
+			this.tsbExit.Name = "tsbExit";
+			this.tsbExit.Size = new System.Drawing.Size(39, 54);
+			this.tsbExit.Text = "Exit";
+			this.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.tsbExit.Click += new System.EventHandler(this.tsbExit_Click);
+			// 
+			// pictureBox6
+			// 
+			this.pictureBox6.Image = global::AppQuanLyKho.Properties.Resources.minus;
+			this.pictureBox6.Location = new System.Drawing.Point(36, 234);
+			this.pictureBox6.Name = "pictureBox6";
+			this.pictureBox6.Size = new System.Drawing.Size(33, 22);
+			this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox6.TabIndex = 14;
+			this.pictureBox6.TabStop = false;
+			// 
+			// pictureBox4
+			// 
+			this.pictureBox4.Image = global::AppQuanLyKho.Properties.Resources.minus;
+			this.pictureBox4.Location = new System.Drawing.Point(36, 193);
+			this.pictureBox4.Name = "pictureBox4";
+			this.pictureBox4.Size = new System.Drawing.Size(33, 22);
+			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox4.TabIndex = 12;
+			this.pictureBox4.TabStop = false;
+			// 
+			// pictureBox5
+			// 
+			this.pictureBox5.Image = global::AppQuanLyKho.Properties.Resources.plus;
+			this.pictureBox5.Location = new System.Drawing.Point(3, 165);
+			this.pictureBox5.Name = "pictureBox5";
+			this.pictureBox5.Size = new System.Drawing.Size(33, 22);
+			this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox5.TabIndex = 10;
+			this.pictureBox5.TabStop = false;
+			// 
+			// pictureBox3
+			// 
+			this.pictureBox3.Image = global::AppQuanLyKho.Properties.Resources.minus;
+			this.pictureBox3.Location = new System.Drawing.Point(36, 125);
+			this.pictureBox3.Name = "pictureBox3";
+			this.pictureBox3.Size = new System.Drawing.Size(33, 22);
+			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox3.TabIndex = 8;
+			this.pictureBox3.TabStop = false;
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Image = global::AppQuanLyKho.Properties.Resources.minus;
+			this.pictureBox2.Location = new System.Drawing.Point(36, 99);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(33, 22);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox2.TabIndex = 6;
+			this.pictureBox2.TabStop = false;
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = global::AppQuanLyKho.Properties.Resources.plus;
+			this.pictureBox1.Location = new System.Drawing.Point(3, 71);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(33, 22);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox1.TabIndex = 4;
+			this.pictureBox1.TabStop = false;
+			// 
 			// frmMain
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -312,7 +312,8 @@
 			this.Controls.Add(this.toolStrip1);
 			this.Controls.Add(this.splitContainer1);
 			this.Name = "frmMain";
-			this.Text = "frmMain";
+			this.Text = "PHẦN MỀM QUẢN LÝ BÁN HÀNG XUẤT KHO + NHẬP KHO";
+			this.Load += new System.EventHandler(this.frmMain_Load);
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();
 			this.splitContainer1.Panel1.ResumeLayout(false);

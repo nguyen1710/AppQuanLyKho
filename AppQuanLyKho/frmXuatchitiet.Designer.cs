@@ -72,6 +72,7 @@
 			this.cbbCongty.Name = "cbbCongty";
 			this.cbbCongty.Size = new System.Drawing.Size(573, 26);
 			this.cbbCongty.TabIndex = 13;
+			this.cbbCongty.SelectedIndexChanged += new System.EventHandler(this.cbbCongty_SelectedIndexChanged);
 			// 
 			// label5
 			// 
@@ -140,7 +141,7 @@
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.gridXuatchitiet);
 			this.Name = "frmXuatchitiet";
-			this.Text = "frmXuatchitiet";
+			this.Text = "CHI TIẾT PHIẾU XUẤT";
 			this.Load += new System.EventHandler(this.frmXuatchitiet_Load);
 			((System.ComponentModel.ISupportInitialize)(this.gridXuatchitiet)).EndInit();
 			this.ResumeLayout(false);
