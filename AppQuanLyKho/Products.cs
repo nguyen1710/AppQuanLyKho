@@ -121,5 +121,26 @@ namespace AppQuanLyKho
 		{
 			this.Close();
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			SqlConnection conn = new SqlConnection(Program.strConn);
+			conn.Open();
+			String sql = "insert into tb_Sanpham VALUES(N'" + txtMasp.Text + "', N'" + txtTensp.Text + "'," + txtDonvi.Text + "," + txtGia.Text + ",N'" +
+				txtNhacc.Text + "',N'" + txtXuatxu.Text + "', '')";
+			SqlCommand cmd = new SqlCommand(sql, conn);
+			int result = cmd.ExecuteNonQuery();
+			if (result > 0)
+			{
+				MessageBox.Show("Bạn đã thêm một sản phẩm thành công.");
+				Products_Load(sender, e);
+			}
+			else
+			{
+				MessageBox.Show("Bạn đã thêm một sản phẩm thất bại. Vui lòng thử lại!!!");
+
+			}
+			
+		}
 	}
 }
