@@ -22,7 +22,7 @@ namespace AppQuanLyKho
 		private void Login_Load(object sender, EventArgs e)
 		{
 			SqlConnection conn = new SqlConnection(Program.strConn);
-			conn.Open();
+			conn.Open(); //mở kết nối
 
 			//load combobox congty
 			string query = "SELECT TenCT FROM tb_Congty";
